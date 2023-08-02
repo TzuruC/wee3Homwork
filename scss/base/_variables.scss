@@ -1,0 +1,16 @@
+$color-main: #AA0601;
+$color-dark: #650300;
+$color-light: #fbf2f2;
+$color-border: #DEE2E6;
+
+
+$banner-bg: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
+$onsale-bg: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png");
+
+
+// box-shadow
+@mixin boxShadowStyle{
+    -webkit-box-shadow: 0px 0px 55px -12px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 55px -12px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 55px -12px rgba(0,0,0,0.5);
+}
